@@ -97,15 +97,15 @@ body {
   gap: 40px;
 }
 
-/* Reverse layout for alternating sections */
+
 .content-block.reverse {
   grid-template-areas: "image text";
 }
 .content-block.reverse .content-image {
-  order: 2; /* Image comes second */
+  order: 2; 
 }
 .content-block.reverse .content-text {
-  order: 1; /* Text comes first */
+  order: 1; 
 }
 
 .content-text h4 {
@@ -138,7 +138,7 @@ body {
   }
   .content-block.reverse .content-image,
   .content-block.reverse .content-text {
-    order: 0; /* Reset order on mobile */
+    order: 0; 
   }
 }
 
